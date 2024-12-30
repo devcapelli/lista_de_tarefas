@@ -39,14 +39,15 @@ input, button {
 }
 
 button {
+    color: white;
     border-radius: 4px;
-    background-color: #17cc26;
+    background-color: #00910c;
     border: none;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #19f12b;
+    background-color: #00bb10;
     cursor: pointer;
 }
 
