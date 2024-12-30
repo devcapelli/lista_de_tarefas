@@ -12,15 +12,14 @@
         <h1>Lista de Tarefas</h1>
         <button type="button">Nova Tarefa +</button>
     </header>
-    <form style="display: block;">
+    <form>
         <h2>Inserir nova tarefa</h2>
-        <input type="text" required placeholder="Nova Tarefa">
+        <input type="text" id="endereco-nova-tarefa" required placeholder="Nova Tarefa">
         <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
     </form>
-    <ul>
-        <li> Varrer a casa</li>
-        <li> Jogar o lixo fora</li>
-    </ul>
+    <ul></ul>
+    <div class="riscado"></div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./main.js"></script>
 </body>
